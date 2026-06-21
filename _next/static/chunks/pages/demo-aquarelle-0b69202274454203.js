@@ -412,6 +412,8 @@
         }, {
           type: "quote"
         }, {
+          type: "timer"
+        }, {
           type: "place"
         }, {
           type: "place"
@@ -429,21 +431,6 @@
           aspectRatio: "3/4",
           imgSrc: "invitations/ingrid-y-miqueas-aquarelle/middle.jpg"
         }, {
-          type: "itinerary",
-          blocks: [{
-            type: "ceremony",
-            hour: "18:00 h"
-          }, {
-            type: "cocktail",
-            hour: "19:00 h"
-          }, {
-            type: "food",
-            hour: "20:00 h"
-          }, {
-            type: "party",
-            hour: "21:30 h"
-          }]
-        }, {
           type: "photoCarousel",
           aspectRatio: "3/4",
           photos: [{
@@ -458,12 +445,6 @@
           accounts: [1],
           dialog: !0,
           dialogHtml: "<p>Pueden hacernos un regalo econ\u00f3mico al siguiente alias:</p>"
-        }, {
-          type: "qr",
-          imgUrl: "https://photos.app.goo.gl/XdjgDkia8WV5GkzJ7",
-          imgSrc: "invitations/test/qr.png"
-        }, {
-          type: "timer"
         }];
         return (0, n.jsxs)(n.Fragment, {
           children: [(0, n.jsx)(f(), {
