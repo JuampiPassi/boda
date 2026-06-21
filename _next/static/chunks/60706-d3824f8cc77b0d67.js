@@ -1821,7 +1821,7 @@
                     btnChild: (0, s.jsx)("span", {
                       className: "".concat(D.contentFont, " ")
                         .concat(M,
-                          " animate-pulsetext inline-block rounded border border-[#005a8d] px-4 py-1.5 text-[#005a8d]"
+                          " animate-pulsetext inline-block rounded px-4 py-1.5 text-[#005a8d]"
                           ),
                       children: eb || i("invitation.gift.more.info",
                         null) || "M\u00e1s informaci\u00f3n"
